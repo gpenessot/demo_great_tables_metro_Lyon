@@ -1,0 +1,10 @@
+[project]
+name = "demo-great-tables-metro-lyon"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "great-tables>=0.15.0",
+    "polars>=1.19.0",
+]
