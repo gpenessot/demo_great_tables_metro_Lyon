@@ -1,0 +1,12 @@
+services:
+  great-tables-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./output:/app/output
+    ports:
+      - "8080:8080"
+    environment:
+      - DOCKER_CONTAINER=true
+    command: python lyon-metro.py
